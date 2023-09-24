@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Recipe App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <ul>
+          <li>allrecipes</li>
+          <li id="search"><input type="text" /> <button>Search</button></li>
+        </ul>
+      </nav>
+      <section>
+        <article id="favourites"></article>
+        <article id="random"></article>
+      </section>
+    </main>
+    <dialog>
+      <img src="" alt="" />
+      <h2>Heading</h2>
+      <p>Instructions</p>
+      <button id="close">❌</button>
+      <button id="add">Add to Favourites ❤️</button>
+      <button id="remove" class="hidden">Remove from Favourites</button>
+    </dialog>
+  </body>
+</html>
